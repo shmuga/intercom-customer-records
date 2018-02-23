@@ -1,5 +1,7 @@
 # Customer records
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/shmuga/intercom-customer-records.svg)](https://greenkeeper.io/)
+
 [Live demo](https://intercom-customer-records.surge.sh)
 
 Simple app  filtering list of customers based on their distance to predefined point.
