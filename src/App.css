@@ -1,0 +1,50 @@
+.App {
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App .App--map {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 62%;
+  height: 100%;
+}
+
+.App .App--logo {
+  background: url("./assets/logo.png") no-repeat;
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-size: 40px 40px;
+}
+
+.App .App--main {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: calc(38% - 40px);
+  height: calc(100% - 40px);
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.App .App--main .row {
+  min-height: max-content;
+}
+
+@media screen and (max-width: 768px) {
+  .App--main {
+    width: calc(60% - 40px);
+  }
+  .App-map {
+    width: 40%;
+  }
+}
