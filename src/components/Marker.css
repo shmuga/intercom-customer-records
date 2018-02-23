@@ -1,0 +1,23 @@
+.Marker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #2169fd;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.Marker--intercom {
+    background: url("../assets/logo.png") no-repeat;
+    color: transparent;
+    border-radius: 3%;
+    width: 35px;
+    height: 35px;
+    background-size: 34px 34px;
+    background-position: center;
+}

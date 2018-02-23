@@ -1,0 +1,15 @@
+.CustomersList {
+    overflow: auto;
+    width: 100%;
+    margin: -20px;
+    padding: 20px;
+    height: 100%;
+    font-size: 18px;
+    color: #000;
+}
+
+.CustomersList label {
+    color: #888;
+    display: block;
+    margin-bottom: 10px;
+}
