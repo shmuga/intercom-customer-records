@@ -1,0 +1,51 @@
+.CustomersDrinksForm {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.CustomersDrinksForm label {
+    color: #888;
+    display: block;
+}
+
+.CustomersDrinksForm input,
+.CustomersDrinksForm textarea {
+    outline: 0;
+    padding: .4em .7em;
+    border: 1px solid #979797;
+    border-radius: 4px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.CustomersDrinksForm input {
+    font-size: 18px;
+    border-radius: 4px 0px 0px 4px;
+    border-right: none;
+    height: 26px;
+}
+
+.CustomersDrinksForm textarea {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+}
+
+.CustomersDrinksForm button {
+    border-color: #286EFA;
+    background: #286EFA;
+    color: white;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 18px;
+    border-radius: 0px 4px 4px 0px;
+    height: 42px;
+    outline: none;
+    cursor: pointer;
+}
+
+.CustomersDrinksForm button:hover {
+    border-color: #0f5df9;
+    background: #0f5df9;
+}
